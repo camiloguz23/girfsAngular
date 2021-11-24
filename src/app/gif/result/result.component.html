@@ -1,0 +1,8 @@
+<div class="content_grid">
+ <div *ngFor="let x of data" class="card animate__animated animate__fadeInDown">
+   <div class="card-body">
+     <p>{{x.title}}</p>
+   </div>
+   <img src={{x.images.downsized_medium.url}} alt="">
+ </div>
+</div>

@@ -1,0 +1,24 @@
+
+:root {
+  --white:hsla(0, 100%, 100%, 1);
+  --black:hsla(0, 100%, 0%, 0.8);
+}
+
+html,body {
+  height: 100%;
+}
+
+.displayflex {
+  display: flex;
+
+}
+
+.hr-black{
+  border: solid 1px hsla(0, 100%, 0%, 1)
+}
+
+
+
+hr {
+  border: solid 1px hsla(0, 100%, 100%, 1);
+}

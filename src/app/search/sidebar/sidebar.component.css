@@ -1,0 +1,7 @@
+.sidebar {
+  min-height: 100vh;
+  height: 100%;
+  background-color: hsla(0, 100%, 0%, 0.8);
+  color: hsla(0, 100%, 100%, 1);
+  padding: 10px;
+}

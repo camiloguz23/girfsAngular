@@ -1,0 +1,7 @@
+<div class="sidebar">
+  <h3>App Gifs</h3>
+  <hr>
+  <div class="list-group list-reset" >
+    <a href="#" class="list-group-item list-group-item-action" *ngFor="let x of word" (click)="selectGifs(x)" >{{x |titlecase}}</a>
+  </div>
+</div>
